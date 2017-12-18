@@ -12,6 +12,9 @@ salary = input('\033[34m请输入自己的工资：\033[0m')
 while not salary.isdigit():
 	print('\033[31m请输入一个整数！\033[0m')
 	salary = input('\033[34m请输入自己的工资：\033[0m')
+
+money = int(salary)
+
 goods_list = [ 'book','pen', 'bicycle', 'apple', 'compurter', 'Iphonex', 'MP3']
 goods_dict = {
 		'book': 10,
@@ -29,8 +32,9 @@ for i in goods_list:
 for i in goods_dict:
 	print( i, goods_dict[i])
 '''
-while int(salary) > 3:
+while money > 3:
 	print('\033[31m---------------------------------\033[0m')
+	print('\033[31m您剩余：\033[0m%d\033[31m元\033[0m' %money)
 	for i in goods_dict:
 		print( i, goods_dict[i])
 	print('\033[31m---------------------------------\033[0m')
@@ -46,7 +50,7 @@ while int(salary) > 3:
 		goods_count = input('\033[32m请输入购买的个数：\033[0m')
 	
 	price = goods_dict.get(goods_name)
-	salary = salary - (int(price) * int(goods_count))
+	money =money -int(price) * int(goods_count)
 
 print('花完了！')
 	
