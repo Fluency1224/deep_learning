@@ -1,1 +1,56 @@
-#A project of Deep Learning
+#A project of Deep Learning.
+tree --> dir
+├── mymatplotlib  matplotlib库 数据处理显示利器
+│   ├── __init__.py
+│   ├── my3D.py
+│   ├── myanimation.py
+│   ├── myannotation.py
+│   ├── mybar.py
+│   ├── mycontours.py
+│   ├── myfigure.py
+│   ├── myfirst.py
+│   ├── myimageinimage.py
+│   ├── myimage.py
+│   ├── mylegend.py
+│   ├── myscatter.py
+│   ├── mysecaxes.py
+│   ├── mysubplotgrid.py
+│   ├── mysubplot.py
+│   └── mytick.py
+├── mynumpy     numpy模块 提供对多维数组对象到支持，支持矩阵运算
+│   ├── __init__.py
+│   └── mynumpy.py
+├── mypandas    pandas模块 基于numpy到数据分析包，用于数据处理运算导出
+│   ├── __init__.py
+│   ├── mypandasdataread.py
+│   ├── mypandasmerge.py
+│   ├── mypandasplot.py
+│   ├── mypandas.py
+│   ├── mypandasselect.py
+│   ├── student.csv
+│   └── student.pickle
+├── mytensorflow 谷歌公司的人工智能学习系统 开源神器
+│   ├── __init__.py
+│   ├── logs
+│   │   └── events.out.tfevents.1521119004.FLUENCY-PC
+│   ├── mydefaddlayer.py
+│   ├── myplaceholder.py
+│   ├── mysession.py
+│   ├── mytensorboard.py
+│   └── myvariable.py
+├── mytheano   
+│   ├── __init__.py
+│   ├── myactivationfunction.py
+│   ├── myclassification.py
+│   ├── myfirst.py
+│   ├── myfirsttheano.py
+│   ├── myfunction.py
+│   ├── mylayer.py
+│   ├── myregularization.py
+│   ├── mysavemove.py
+│   ├── myshared.py
+│   └── save
+│       └── model.pickle
+└── README
+
+7 directories, 45 files
