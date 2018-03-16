@@ -1,4 +1,4 @@
-#A project of Deep Learning.
+A project of Deep Learning.
 tree --> dir
 ├── mymatplotlib  matplotlib库 数据处理显示利器
 │   ├── __init__.py
