@@ -4,6 +4,7 @@ import tensorflow as tf
 import tensorboard
 import numpy as np
 
+#tensorboard --logdir='logs/'
 #神经层
 def add_layer(inputs,in_size,out_size,activation_function=None):
     with tf.name_scope('layer'):
