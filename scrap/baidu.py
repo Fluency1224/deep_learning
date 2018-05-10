@@ -18,7 +18,7 @@ for i in range(20):
     url = base_url + his[-1]
 
     html = urlopen(url).read().decode('utf-8')
-    soup = BeautifulSoup(html, features='lxml')
+    soup = BeautifulSoup(html, features='html.parser')
     print(soup.find('h1').get_text(), 'url:', his[-1])
 
     #find valid urls
